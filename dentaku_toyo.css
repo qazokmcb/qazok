@@ -1,0 +1,87 @@
+
+
+.container {
+    width: 380px;
+    height: 150px;
+    margin: auto;
+  }
+  
+  .output {
+    width: 300px;
+    height: 80px;
+    color: rgb(255, 255, 255);
+    line-height: 65px;
+    text-align: right;
+    padding: 5px;
+    margin-bottom: 5px;
+    border:2px solid black;
+    box-sizing: border-box;
+    background-color: black;
+    font-size: 55px;
+  }
+  
+  .input {
+    width: 300px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    border: 5px;
+    width: 300px;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  /*rowの範囲がわかりやすいように赤の枠を作っています。*/
+  
+  .num_bth, #clear {
+    width: 80px;
+    height: 65px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 65px;
+    border-radius: 50%;
+    background: rgb(80, 78, 78);
+    cursor: pointer;
+    margin: 5px;
+    font-size: 30px;
+  }
+
+  .symbol_bth {
+    width: 80px;
+    height: 65px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 65px;
+    border-radius: 50%;
+    background: rgb(218, 139, 22);
+    cursor: pointer;
+    margin: 5px;
+    font-size: 30px;
+  }
+
+  #equal_btn {
+    width: 80px;
+    height: 65px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 65px;
+    border-radius: 50%;
+    background: rgb(218, 139, 22);
+    cursor: pointer;
+    margin: 5px;
+    font-size: 30px;
+  }
+
+  .act_bth,#clear {
+    width: 80px;
+    height: 65px;
+    color: black;
+    text-align: center;
+    line-height: 65px;
+    border-radius: 50%;
+    background: #c2bfb4;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 30px;
+  }
